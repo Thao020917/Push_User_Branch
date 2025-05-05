@@ -91,7 +91,7 @@ def fetch_and_store_branches(access_token, retailer):
 
         current_item += page_size
 
-    write_to_firebase("https://emall-1ad4b-default-rtdb.firebaseio.com/TB02.json", all_branches)
+    write_to_firebase("https://emalluserbranch-default-rtdb.asia-southeast1.firebasedatabase.app/02.json", all_branches)
 
 def main():
     access_token = get_access_token()
